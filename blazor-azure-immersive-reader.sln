@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32519.111
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E0FA4F5-E95A-45D4-9E6B-783766FCC11F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B3DA93E-A44E-43E4-BACC-9AFC012EDB39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazure.ImmersiveReader", "src\Blazure.ImmersiveReader\Blazure.ImmersiveReader.csproj", "{0D287EF7-4D2D-4A10-8603-592D01597C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazure.IR.Sample.Server", "samples\Blazure.IR.Sample\Server\Blazure.IR.Sample.Server.csproj", "{D57A18A9-D72E-45DD-AC1B-E56400706A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazure.IR.Sample.Client", "samples\Blazure.IR.Sample\Client\Blazure.IR.Sample.Client.csproj", "{DAEE8AB8-66F0-4DB5-84E9-15D4CA7297F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazure.IR.Sample.Shared", "samples\Blazure.IR.Sample\Shared\Blazure.IR.Sample.Shared.csproj", "{FF93A09A-A71F-4A72-A2A0-BCD0C7F1961A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{608FFB4E-01BF-411B-9E8D-0539FC5F3CB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D287EF7-4D2D-4A10-8603-592D01597C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D287EF7-4D2D-4A10-8603-592D01597C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D287EF7-4D2D-4A10-8603-592D01597C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D287EF7-4D2D-4A10-8603-592D01597C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57A18A9-D72E-45DD-AC1B-E56400706A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57A18A9-D72E-45DD-AC1B-E56400706A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57A18A9-D72E-45DD-AC1B-E56400706A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57A18A9-D72E-45DD-AC1B-E56400706A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEE8AB8-66F0-4DB5-84E9-15D4CA7297F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEE8AB8-66F0-4DB5-84E9-15D4CA7297F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEE8AB8-66F0-4DB5-84E9-15D4CA7297F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEE8AB8-66F0-4DB5-84E9-15D4CA7297F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF93A09A-A71F-4A72-A2A0-BCD0C7F1961A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF93A09A-A71F-4A72-A2A0-BCD0C7F1961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF93A09A-A71F-4A72-A2A0-BCD0C7F1961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF93A09A-A71F-4A72-A2A0-BCD0C7F1961A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D287EF7-4D2D-4A10-8603-592D01597C23} = {1B3DA93E-A44E-43E4-BACC-9AFC012EDB39}
+		{D57A18A9-D72E-45DD-AC1B-E56400706A53} = {608FFB4E-01BF-411B-9E8D-0539FC5F3CB4}
+		{DAEE8AB8-66F0-4DB5-84E9-15D4CA7297F3} = {608FFB4E-01BF-411B-9E8D-0539FC5F3CB4}
+		{FF93A09A-A71F-4A72-A2A0-BCD0C7F1961A} = {608FFB4E-01BF-411B-9E8D-0539FC5F3CB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65B1BFE6-F8FA-4029-9C6C-3E138AC5350A}
+	EndGlobalSection
+EndGlobal
